@@ -1,0 +1,15 @@
+.NGO {
+  font-size: 35px;
+  color: purple;
+}
+h1 {
+  font-size: 50;
+  color: purple;
+  text-align: center;
+}
+body {
+  background-image: url("/home/salome/Downloads/photo-1510586729411-a44a3001b5f8.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
