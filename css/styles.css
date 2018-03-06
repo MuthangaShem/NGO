@@ -3,10 +3,21 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.container-fluid{
+  background-image: url('../images/hands.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0;
+  }
+
 .jumbotron{
   text-align: center;
   font-size: 35px;
-}
+/*  opacity: 0;
+*/}
+
 p{
   color:blue;
   text-align: center;
@@ -22,6 +33,7 @@ button{
 .btn-success2{
 float:right;
 }
+<<<<<<< HEAD
 .sally {
   text-align: center;
   font-size: 35px;
@@ -35,3 +47,6 @@ float:right;
 .form-group {
 
 }
+=======
+
+>>>>>>> development
