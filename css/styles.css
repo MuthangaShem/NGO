@@ -1,9 +1,11 @@
 body{
-  background-size: contain;
+  background-color: pink;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container-fluid{
-  background-image: url('../images/hands.jpg'); 
+  background-image: url('../images/hands.jpg');
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -34,4 +36,20 @@ button{
 float:right;
 
 }
+<<<<<<< HEAD
+.sally {
+  text-align: center;
+  font-size: 35px;
+  color: purple;
+}
+.NGO {
+  background-image: repeating-radial-gradient("photo-1510586729411-a44a3001b5f8.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-group {
 
+}
+=======
+
+>>>>>>> development
