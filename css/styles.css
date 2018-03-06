@@ -17,15 +17,14 @@ body{
   font-size: 35px;
 /*  opacity: 0;
 */}
+button {
+  margin-top: 20%;
+}
 
 p{
   color:blue;
   text-align: center;
   font-size: 20px;
-}
-
-button{
-  margin-top: 20%;
 }
 .btn-success1{
   float:left;
@@ -33,20 +32,26 @@ button{
 .btn-success2{
 float:right;
 }
-<<<<<<< HEAD
 .sally {
   text-align: center;
   font-size: 35px;
-  color: purple;
 }
 .NGO {
-  background-image: repeating-radial-gradient("photo-1510586729411-a44a3001b5f8.jpeg");
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 35PX;
 }
 .form-group {
-
+font-size: 35px;
+font-style:Slabo+27px;
+color: purple;
 }
-=======
-
->>>>>>> development
+.baton1 {
+  width: 25%;
+  float: left;
+}
+.baton2 {
+  width: 25%;
+  float: right;
+}
