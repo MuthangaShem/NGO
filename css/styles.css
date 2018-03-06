@@ -3,7 +3,7 @@ body{
 }
 
 .container-fluid{
-  background-image: url('../hands.jpg'); 
+  background-image: url('../images/hands.jpg'); 
   height: 100vh;
   background-position: center;
   background-size: cover;
