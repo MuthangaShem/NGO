@@ -1,7 +1,5 @@
 body{
-  background-color: pink;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .container-fluid{
@@ -36,20 +34,8 @@ button{
 float:right;
 
 }
-<<<<<<< HEAD
-.sally {
-  text-align: center;
-  font-size: 35px;
-  color: purple;
+header{
+  color:white;
+  text-align:center;
+  font-size: 50px;
 }
-.NGO {
-  background-image: repeating-radial-gradient("photo-1510586729411-a44a3001b5f8.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.form-group {
-
-}
-=======
-
->>>>>>> development
