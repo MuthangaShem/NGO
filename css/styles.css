@@ -1,5 +1,5 @@
 body{
-  background-color:pink;
+  background-color: pink;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -21,4 +21,17 @@ button{
 }
 .btn-success2{
 float:right;
+}
+.sally {
+  text-align: center;
+  font-size: 35px;
+  color: purple;
+}
+.NGO {
+  background-image: repeating-radial-gradient("photo-1510586729411-a44a3001b5f8.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-group {
+
 }
