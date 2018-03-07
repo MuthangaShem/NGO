@@ -1,0 +1,43 @@
+
+body{
+  background-size: contain;
+}
+
+.container-fluid{
+  background-image: url('../images/hands.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0;
+  }
+
+.jumbotron{
+  text-align: center;
+  font-size: 35px;
+/*  opacity: 0;
+*/}
+button {
+  margin-top: 20%;
+}
+
+p{
+  color:blue;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  margin-top: 10%;
+}
+.btn-success1{
+  float:left;
+  background-color: green;
+}
+.btn-success2{
+float:right;
+background-color: green;
+
+}
+header{
+  color:white;
+  text-align:center;
+  font-size: 50px;
+}
