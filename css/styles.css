@@ -1,4 +1,4 @@
-body {
+.container {
     background-image: url("../images/bnw.jpg");
     overflow-x: hidden;
     background-repeat: no-repeat;
@@ -12,7 +12,6 @@ h3{
   text-align: center;
   color: white;
   margin-top: 5%
-  font
   font-size: 48px;
 }
 
