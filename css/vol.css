@@ -1,0 +1,62 @@
+.container1 {
+  background-image: url("../images/bnw.jpg");
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 0;
+}
+
+#form {
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+}
+
+#sign {
+  color: blue;
+  cursor: pointer;
+}
+
+a {
+  border: 2px solid white;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+  background-color: transparent;
+}
+
+form label {
+  color: white;
+}
+
+.int {
+  float: right;
+  color: white;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+
+#form {
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+}
+
+#sign {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+#info {
+  margin-left: 10%;
+}
