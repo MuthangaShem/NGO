@@ -1,20 +1,18 @@
 .container1 {
-    background-image: url("../images/bnw.jpg");
-    overflow-x: hidden;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height:100vh;
-    margin-bottom: 0;
-
+  background-image: url("../images/bnw.jpg");
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 0;
 }
-
 
 #form {
   text-align: center;
   color: white;
   margin-top: 5%;
-  
+  text-shadow: 4px 4px 4px #aaa;
 }
 
 #sign {
@@ -36,28 +34,30 @@ a:hover {
 }
 
 form label {
-  color:white;
+  color: white;
 }
- .int{
-   float: right;
-   color: white;
-   margin-right: 20%;
-   margin-top: 10%;
- }
 
- #form{
-   text-align: center;
-   color: white;
-   margin-top: 5%;
- }
+.int {
+  float: right;
+  color: white;
+  margin-right: 20%;
+  margin-top: 10%;
+}
 
- #sign{
-   color:blue;
-   text-decoration: none;
-   cursor: pointer;
-   margin-left: 15%;
-   margin-top: 10%;
- }
- #info{
-   margin-left: 10%;
- }
+#form {
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+}
+
+#sign {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+#info {
+  margin-left: 10%;
+}
