@@ -1,29 +1,17 @@
-.container {
+.container1 {
     background-image: url("../images/bnw.jpg");
     overflow-x: hidden;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:100%;
+    height:100vh;
+    margin-bottom: 0;
 
-}
-
-h3{
-  text-align: center;
-  color: white;
-  margin-top: 5%
-  font-size: 48px;
-}
-
-h4 {
-  color: blue;
-  cursor: pointer;
 }
 
 a {
   border: 2px solid white;
   padding: 10px;
-  margin-top: 30%;
   text-decoration: none;
   text-align: center;
 }
@@ -33,24 +21,30 @@ a:hover {
   color: red;
   background-color: transparent;
 }
-#info{
-  float: right;
-  margin-top: 20%;
-  /* padding-left: 20%; */
-}
-
-img {
-  margin-top: 10%;
-}
-
-.container {
-  margin-top: 5%;
-  /* text-align: center; */
-}
 
 form label {
   color:white;
 }
-#checked{
-  color: white;
-}
+ .int{
+   float: right;
+   color: white;
+   margin-right: 20%;
+   margin-top: 10%;
+ }
+
+ #form{
+   text-align: center;
+   color: white;
+   margin-top: 5%;
+ }
+
+ #sign{
+   color:blue;
+   text-decoration: none;
+   cursor: pointer;
+   margin-left: 15%;
+   margin-top: 10%;
+ }
+ #info{
+   margin-left: 10%;
+ }
