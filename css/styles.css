@@ -3,7 +3,7 @@ body{
 }
 
 .container-fluid{
-  background-image: url('../images/hands.jpg'); 
+  background-image: url('../images/hands.jpg');
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -34,4 +34,8 @@ button{
 float:right;
 
 }
-
+header{
+  color:white;
+  text-align:center;
+  font-size: 50px;
+}
