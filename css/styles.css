@@ -1,42 +1,43 @@
-body{
-  background-size: contain;
+.container1 {
+    background-image: url("../images/bnw.jpg");
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    margin-bottom: 0;
+
+}
+.col-md-5{
+    margin-left: 5%;
 }
 
-.container-fluid{
-  background-image: url('../images/hands.jpg');
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 0;
-  }
-
-.jumbotron{
+#form {
   text-align: center;
-  font-size: 35px;
-/*  opacity: 0;
-*/}
-button {
-  margin-top: 20%;
+  color: white;
+  margin-top: 5%;
 }
 
-p{
-  color:blue;
+#sign {
+  color: blue;
+  cursor: pointer;
+}
+
+a {
+  border: 2px solid white;
+  padding: 10px;
+  text-decoration: none;
   text-align: center;
-  font-size: 25px;
-  font-style: italic;
-  margin-top: 10%;
 }
-.btn-success1{
-  float:left;
-}
-.btn-success2{
-float:right;
 
+a:hover {
+  text-decoration: none;
+  color: red;
+  background-color: transparent;
 }
-header{
+
+form label {
   color:white;
-  text-align:center;
-  font-size: 50px;
 }
 .baton1 {
   float: left;
