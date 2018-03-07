@@ -38,3 +38,28 @@ header{
   text-align:center;
   font-size: 50px;
 }
+.baton1 {
+  float: left;
+  color: purple;
+  font-size: 35px;
+}
+.baton2 {
+  float: right;
+  font-size: 35px;
+  color: purple;
+}
+.NGO {
+  color: purple;
+  font-size: 35px;
+  align-items: center;
+}
+.sally {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+.salome {
+  background-image: url("../images/olivier-fahrni-337130-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
