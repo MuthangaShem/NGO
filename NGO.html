@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/salome.css">
     <link rel="stylesheet" href="css/css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=News+Cycle|Rokkitt" rel="stylesheet">
@@ -16,27 +17,143 @@
       <div class="form-group">
         <label for="Name">Name:</label>
         <input id="Name" class="form-control" type="form-control">
+=======
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+   <title></title>
+  </head>
+  <body>
+
+  <div class="container menuBar">
+
+    <div class="row">
+
+      <div class="col-md-4">
+        <h2 style="color: white;">Twaweza</h2>
+>>>>>>> master
       </div>
-      <div class="form-group">
-        <label for="Reg.No">Reg.No:</label>
-        <input id="Reg.No" class="form-control" type="form-control">
-      </div>
-      <div class="form-group">
-        <label for="Location">Location:</label>
-        <input id="Location" class="form-control" type="form-control">
-      </div>
-      <div class="form-group">
-        <label for="Help Type">Area of Interest:</label>
-        <input id="Help Type" class="form-control" type="form-control">
-      </div>
-      <div class="form-group">
-        <label for="Description">Description:</label>
-        <input id="Description" class="form-control" type="form-control">
-      </div>
-      </div>
-      <button class="baton1" type="submit" name="btn"> Register Now</button>
-      <button class="baton2" type="submit" name="btn"> Next</button>
-    </form>
+      <ul class="col-md-8 list-inline text-right" style="margin-top:20px; color: white;">
+        <li><a href="" class="glyphicon glyphicon-heart-empty"> Donate</a></li>          
+        <li><a href="" class="glyphicon glyphicon-envelope"> Contact</a></li>
+        <li><a href="" class="glyphicon glyphicon-phone-alt"> Support</a></li>
+        <li><a href="" class="glyphicon glyphicon-log-in"> Log In</a></li>
+      </ul>
     </div>
+
+
+    <div class="row">
+      <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link " id="home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="home" aria-selected="true">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="profile-tab" data-toggle="tab" href="list.html" role="tab" aria-controls="profile" aria-selected="false">NGOs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="messages-tab" data-toggle="tab" href="#Tetimonials" role="tab" aria-controls="messages" aria-selected="false">Tetimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="settings-tab" data-toggle="tab" href="#Team" role="tab" aria-controls="settings" aria-selected="false">Our Team</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+
+    <div class="row">
+            <div class="col-md-6 col-md-offset-3" id="form">
+        <center><b class="registration">NGO Registration Form</b> </center>
+        <form>
+          <div class="form-group">
+            <label>Are you registered by the NGO Bureau of Kenya ?</label>
+            <select class="form-control text" name="registered">
+                <option value="yes/no">Select yes or no</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+
+            <div class="form-group">
+            <label>Registration Number :</label>
+            <input type="number" name="registration" class="form-control text" placeholder="Enter Registration Number" required>          
+          </div>
+
+          <div class="form-group">
+            <label>Name of your NGO :</label>
+            <input type="text" name="name" class="form-control text" placeholder="Enter NGO Name" required>          
+          </div>
+
+          <div class="form-group">
+            <label>Year of Establishment :</label>
+            <input type="date" name="Establishment" class="form-control text" placeholder="Please Enter a User Name" required> 
+          </div>
+
+          <div class="form-group">
+            <label>Name Of Founder :</label>
+            <input type="text" name="name" class="form-control text" placeholder="Please Enter a User Name" required> 
+          </div>
+
+          <div class="form-group">
+            <label>Types of Work/Service provided :</label><br>
+            <input  type="checkbox" name="Volunteer" value="Volunteer">Volunteer
+            <input  type="checkbox" name="Schorlaship" value="Education Schorlaship">Education Schorlaship
+            <input  type="checkbox" name="medical" value="medical">Medical Support<br>
+            <input  type="checkbox" name="Empowerment" value="Empowerment">Empowerment and Mentorship
+            <input  type="checkbox" name="training" value="training">Vocational and Life Skills Training<br>
+          </div>
+
+          <div class="form-group">
+            <label>Areas of Operation :</label><br>
+            <input  type="checkbox" name="Kibera" value="Kibera">Kibera
+            <input  type="checkbox" name="Kayole" value="Kayole">Kayole
+            <input  type="checkbox" name="Mukuru kwa Jenga" value="Mukuru kwa Jenga">Mukuru kwa Jenga<br>
+            <input  type="checkbox" name="Mukuru kwa Kayaba" value="Mukuru kwa Kayaba">Mukuru kwa Kayaba
+            <input  type="checkbox" name="Kangemi" value="Kangemi">Kangemi<br>
+          </div>
+
+          <div class="form-group">
+            <label>Address :</label>
+            <textarea class="form-control" rows="3" placeholder="Enter Full Address"></textarea>        
+          </div>
+
+
+          <div class="form-group">
+            <label>Tell Us Your Story :</label>
+            <textarea class="form-control" rows="6" placeholder=""></textarea>        
+          </div>
+
+
+          <u><h4>Account Security Details</h4></u>
+
+          <div class="form-group">
+            <label>User Name :</label>
+            <input type="text" name="userName" class="form-control text" placeholder="Enter a suitable User Name" required>
+          </div>
+
+          <div class="form-group">
+            <label>Password :</label>
+            <input type="Password" name="Password" class="form-control text" placeholder="Enter a suitable Password" required>
+          </div>
+
+          <div class="form-group">
+            <label>Confirm Password :</label>
+            <input type="Password" name="Password confirmation" class="form-control text" placeholder="Re-enter Password" required>
+          </div>
+          
+          
+          <div class="form-group">
+            <input type="submit" class="btn btn-primary btn_volunteer" name="" value="Register" id="register" >
+            <input type="reset" class="btn btn-danger btn_volunteer" name="" value="Reset" onclick="sure()">
+          </div>
+        </form>
+
+        
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>
