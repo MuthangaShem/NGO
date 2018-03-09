@@ -6,6 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine:bolditalics">
+>>>>>>> a636c4e76f2e1fe359c67bf84bfe7a195323972d
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/vol.css" type="text/css">
 =======
@@ -35,8 +39,12 @@
 						<input id="name" class="formcontrol" type="text "></input>
 						<br><br>
 						<label for="gender">Gender:</label><br>
-						<input type="radio" name="gender" value="male">Male<br>
+						<label>
+						  <input type="radio" name="gender" value="male">Male<br>
+					 </label>
+						<label>
 						<input type="radio" name="gender" value="female" 3>Female </br>
+					</label>
 						<br><br>
 						<button id="start" class="btn-success btn">SEND</button>
 					</form>
@@ -45,10 +53,19 @@
 			<div class="col-md-6">
 				<div class="int">
 					<h3>Area of interest</h3>
-					<input type="radio" name="gender" value="male">Volunteer<br>
-					<input type="radio" name="gender" value="female">Scholarship </br>
-					<input type="radio" name="gender" value="other"> Others</input><br><br><br>
-					<a href="NGO.html" target="_blank">Learn More &raquo</a>
+					<label>
+					  <input type="radio" name="gender" value="male">Volunteer
+				  </label><br>
+					<label>
+					  <input type="radio" name="gender" value="female">Scholarship
+				  </label></br>
+					<label>
+					  <input type="radio" name="gender" value="other"> Others</input>
+					</label><br>
+					Specify:<br>
+					 <textarea name="msg"></textarea>
+					<br><br><br>
+					<a href="NGO.html">Learn More &raquo</a>
 				</div>
 			</div>
 		</div>
