@@ -15,11 +15,12 @@ body{
 
 .container-fluid_volunteer{
   background-image: url(../images/bnw.jpg);
-  background-size: contain;
+  background-size: cover;
   height: 100%;
   width: 100%; 
   background-repeat: no-repeat; 
-  position: center fixed;
+  background-position: center ;
+  background-attachment: fixed;
   }
 
 .jumbotron{
@@ -148,4 +149,7 @@ a.nav-link.active{
 .fa-twitter {
     background: #55ACEE;
     color: white;
+}
+.rounded-circle{
+  border-radius: 50%;
 }
